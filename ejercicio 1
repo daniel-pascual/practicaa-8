@@ -9,7 +9,7 @@ int main(){
 	if( i < j )
 		printf("%d es mayor\n", j);
 	else if(j < i)
-		printf("%d es mayor\n", i);
+		printf("%d  es mayor\n", i);
 
 	return 0;	
 }
