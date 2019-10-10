@@ -8,4 +8,5 @@ int main(){
 		printf("esta instruccion NUNCA se ejecuta\n");
 	printf("esta instruccion no pertenece al if\n");
 	return 0;
+	
 }
