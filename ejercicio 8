@@ -1,0 +1,33 @@
+#include <stdio.h>
+//programa para odenar de menor a meyor 3 numeros,espesificando todos los casos
+int main(){
+	int a,b,c;
+	printf("Ingrese 3 numeros\n");//para ordenarlos de manera creciente
+	scanf("%d %d %d", &a,&b,&c);
+	if(a>b){
+		if(a>c){
+			if(b>c)
+				printf("%d < %d < %d\n", c,b,a);
+			else
+				printf("%d < %d < %d\n", b,c,a);
+		}
+		else{
+			if(b>c)
+				printf("%d < %d < %d", a,c,b);
+			else
+				printf("%d < %d < %d", a,b,c);
+		}		
+	}
+	else{	
+		if(b>c){
+			if(a>c)
+				printf("%d < %d < %d\n", c,a,b);
+			else
+				printf("%d < %d < %d\n", a,c,b);
+		}
+		else{
+			printf("%d < %d < %d\n", a,b,c);
+		}
+	}		
+	return 0;
+}
