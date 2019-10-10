@@ -1,0 +1,16 @@
+#include <stdio.h>
+//programa para saber cual de dos numeros es mayor un una estructura de if entro de otro if
+int main(){
+	int i,j;
+
+	printf("escriba dos numeros\n");
+	scanf("%d %d", &i, &j);
+	(i<j) ? //es un if abreviado
+		printf("%d es mayor\n", j)
+		:
+		(j<i) ?
+			printf("%d es mayor\n",i)
+			:
+			printf("son iguales\n");
+	return 0;	
+}
