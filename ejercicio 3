@@ -1,0 +1,13 @@
+#include <stdio.h>
+// programa pora saber cual de dos numeros es mayor,pero con un if abreviado
+int main(){
+	int i,j;
+
+	printf("escriba dos numeros\n");
+	scanf("%d %d", &i, &j);
+	(i<j) ? //es un if abreviado pero solo acepta una linea de comando
+		printf("%d es mayor\n", j)//como esta
+		:
+		printf("%d es mayor\n", i);//y esta
+	return 0;	
+}
