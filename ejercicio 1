@@ -12,5 +12,4 @@ int main(){
 		printf("%d  es mayor\n", i);
 
 	return 0;	
-	
 }
