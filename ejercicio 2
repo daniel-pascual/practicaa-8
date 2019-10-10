@@ -12,5 +12,4 @@ int main(){
 		printf("%d es mayor que %d\n", i, j);
 
 	return 0;	
-	
 }
