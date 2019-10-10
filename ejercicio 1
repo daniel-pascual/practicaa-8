@@ -1,0 +1,15 @@
+#include <stdio.h>
+//programa para identificar cual de dos numeros es mayor
+int main(){
+	int i,j;
+
+	printf("escriba dos numeros\n");
+	scanf("%d %d", &i, &j);
+
+	if( i < j )
+		printf("%d es mayor\n", j);
+	else if(j < i)
+		printf("%d es mayor\n", i);
+
+	return 0;	
+}
