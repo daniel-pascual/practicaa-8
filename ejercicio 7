@@ -1,0 +1,11 @@
+#include <stdio.h>
+#include <stdbool.h>
+// programa para entender cuado los valores son verdaderos
+int main(){
+	int a;
+	scanf("%d",&a);
+	if(a)
+		printf("esta condicion SIEMPRE es verdadera si 'a' es diferente de 0\n");
+	printf("esta instruccion no pertenece al if\n");
+	return 0;
+}
